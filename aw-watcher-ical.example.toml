@@ -1,0 +1,25 @@
+[aw-watcher-ical]
+poll_time = 900 # seconds
+past_days = 90 # days
+future_days = 30 # days
+# timezone = "America/Chicago"
+
+# Uncomment each entire block you want to use and replace its URL.
+# Keep calendar IDs stable when replacing URLs.
+
+# [[aw-watcher-ical.calendars]]
+# id = "personal"
+# url = "https://example.com/private-calendar.ics"
+
+# [[aw-watcher-ical.calendars]]
+# id = "work"
+# url = "webcal://example.com/work-calendar.ics"
+
+[aw-watcher-ical-testing]
+poll_time = 900 # seconds
+past_days = 90 # days
+future_days = 30 # days
+
+# [[aw-watcher-ical-testing.calendars]]
+# id = "test-calendar"
+# url = "https://example.com/test-calendar.ics"
